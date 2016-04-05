@@ -13,7 +13,7 @@
         Selamat Datang di Layanan Online Kelurahan STDI Android
     </description>
 
-    <author href="http://tokodumai.com" email="initdeapache@ymail.com">
+    <author href="http://kelurahanstdi.eu5.org" email="initdeapache@ymail.com">
         RIDHO TOBING
     </author>
 	<content src = "index.html"/>
@@ -90,6 +90,7 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
 	<access origin="*" />
+	<access origin="http://kelurahanstdi.eu5.org" />
 	<plugin name="cordova-plugin-whitelist" version="1" />
 	<allow-intent href="http://*/*" />
 	<allow-intent href="https://*/*" />
