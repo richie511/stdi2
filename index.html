@@ -72,9 +72,9 @@
 				}
 				
 				$(".muat").show();
-				var url = "http://kelurahanstdi.eu5.org/simpan_ktp.php?nik="+encodeURIComponent(nik)+"&tgl_ambil_ktp="+encodeURIComponent(tgl_ambil_ktp)+"&nama="+encodeURIComponent(nama)+"&alamat="+encodeURIComponent(alamat)+"&tgl="+encodeURIComponent(tgl)+"&jam="+encodeURIComponent(jam)+"&pilihan="+encodeURIComponent(pilihan_text);
+				var url = "http://kelurahanstdi.eu5.org/root_ad/simpan_ktp.php?nik="+encodeURIComponent(nik)+"&tgl_ambil_ktp="+encodeURIComponent(tgl_ambil_ktp)+"&nama="+encodeURIComponent(nama)+"&alamat="+encodeURIComponent(alamat)+"&tgl="+encodeURIComponent(tgl)+"&jam="+encodeURIComponent(jam)+"&pilihan="+encodeURIComponent(pilihan_text);
 				$.ajax({
-					//url		: "http://kelurahanstdi.eu5.org/simpan.php?nik="+nik+"&nama="+nama+"&alamat="+alamat+"&tgl="+tgl+"&jam="+jam+"&pilihan="+pilihan_text,
+					//url		: "http://kelurahanstdi.eu5.org/root_ad/simpan.php?nik="+nik+"&nama="+nama+"&alamat="+alamat+"&tgl="+tgl+"&jam="+jam+"&pilihan="+pilihan_text,
 					url		: url,
 					type	: "GET",
 					crossDomain : true,
@@ -157,7 +157,7 @@
 					return false();
 				}
 				$(".muat").show();
-				var url = "http://kelurahanstdi.eu5.org/simpan_kematian.php?pelapor="+encodeURIComponent(srt_kematian_pelapor)+"&tgl_ambil_srt_kematian="+encodeURIComponent(tgl_ambil_srt_kematian)+"&nama="+encodeURIComponent(srt_kematian_nama_jen)+"&nik="+encodeURIComponent(srt_kematian_nik_jen)+"&tgl_kematian="+encodeURIComponent(srt_kematian_tgl_kematian)+"&sebab="+encodeURIComponent(srt_kematian_sebab)+"&tempat="+encodeURIComponent(srt_kematian_tempat)+"&jam_kematian="+encodeURIComponent(srt_kematian_jam_kematian)+"&waktu_ambil="+encodeURIComponent(srt_kematian_waktu_ambil)+"&jam_ambil="+encodeURIComponent(srt_kematian_jam_ambil);
+				var url = "http://kelurahanstdi.eu5.org/root_ad/simpan_kematian.php?pelapor="+encodeURIComponent(srt_kematian_pelapor)+"&tgl_ambil_srt_kematian="+encodeURIComponent(tgl_ambil_srt_kematian)+"&nama="+encodeURIComponent(srt_kematian_nama_jen)+"&nik="+encodeURIComponent(srt_kematian_nik_jen)+"&tgl_kematian="+encodeURIComponent(srt_kematian_tgl_kematian)+"&sebab="+encodeURIComponent(srt_kematian_sebab)+"&tempat="+encodeURIComponent(srt_kematian_tempat)+"&jam_kematian="+encodeURIComponent(srt_kematian_jam_kematian)+"&waktu_ambil="+encodeURIComponent(srt_kematian_waktu_ambil)+"&jam_ambil="+encodeURIComponent(srt_kematian_jam_ambil);
 				$.ajax({
 					url		: url,
 					type	: "GET",
@@ -261,7 +261,7 @@
 					return false();
 				}
 				$(".muat").show();
-				var url = "http://kelurahanstdi.eu5.org/simpan_kelahiran.php?pelapor="+encodeURIComponent(srt_lahir_pelapor)+"&tgl_ambil_srt_lahir="+encodeURIComponent(tgl_ambil_srt_lahir)+"&nama="+encodeURIComponent(srt_lahir_nama_bayi)+"&jk="+encodeURIComponent(srt_lahir_jk)+"&tempat="+encodeURIComponent(srt_lahir_tempat)+"&hari="+encodeURIComponent(srt_lahir_hari)+"&tanggal="+encodeURIComponent(srt_lahir_tanggal)+"&berat="+encodeURIComponent(srt_lahir_berat)+"&panjang="+encodeURIComponent(srt_lahir_panjang)+"&ayah="+encodeURIComponent(srt_lahir_ayah)+"&ibu="+encodeURIComponent(srt_lahir_ibu)+"&waktu_ambil="+encodeURIComponent(srt_lahir_waktu_ambil)+"&jam_ambil="+encodeURIComponent(srt_lahir_jam_ambil);
+				var url = "http://kelurahanstdi.eu5.org/root_ad/simpan_kelahiran.php?pelapor="+encodeURIComponent(srt_lahir_pelapor)+"&tgl_ambil_srt_lahir="+encodeURIComponent(tgl_ambil_srt_lahir)+"&nama="+encodeURIComponent(srt_lahir_nama_bayi)+"&jk="+encodeURIComponent(srt_lahir_jk)+"&tempat="+encodeURIComponent(srt_lahir_tempat)+"&hari="+encodeURIComponent(srt_lahir_hari)+"&tanggal="+encodeURIComponent(srt_lahir_tanggal)+"&berat="+encodeURIComponent(srt_lahir_berat)+"&panjang="+encodeURIComponent(srt_lahir_panjang)+"&ayah="+encodeURIComponent(srt_lahir_ayah)+"&ibu="+encodeURIComponent(srt_lahir_ibu)+"&waktu_ambil="+encodeURIComponent(srt_lahir_waktu_ambil)+"&jam_ambil="+encodeURIComponent(srt_lahir_jam_ambil);
 				$.ajax({
 					url		: url,
 					type	: "GET",
@@ -375,7 +375,7 @@
 					return false();
 				}
 				$(".muat").show();
-				var url = "http://kelurahanstdi.eu5.org/simpan_srt_pindah.php?nokk="+encodeURIComponent(srt_pindah_nokk)+"&tgl_ambil_srt_pindah="+encodeURIComponent(tgl_ambil_srt_pindah)+"&agt1="+encodeURIComponent(srt_pindah_agt1)+"&agt2="+encodeURIComponent(srt_pindah_agt2)+"&agt3="+encodeURIComponent(srt_pindah_agt3)+"&agt4="+encodeURIComponent(srt_pindah_agt4)+"&agt5="+encodeURIComponent(srt_pindah_agt5)+"&jalan="+encodeURIComponent(srt_pindah_jalan)+"&kelurahan="+encodeURIComponent(srt_pindah_kelurahan)+"&kecamatan="+encodeURIComponent(srt_pindah_kecamatan)+"&kota="+encodeURIComponent(srt_pindah_kota)+"&provinsi="+encodeURIComponent(srt_pindah_provinsi)+"&waktu_ambil="+encodeURIComponent(srt_pindah_waktu_ambil)+"&jam_ambil="+encodeURIComponent(srt_pindah_jam_ambil);
+				var url = "http://kelurahanstdi.eu5.org/root_ad/simpan_srt_pindah.php?nokk="+encodeURIComponent(srt_pindah_nokk)+"&tgl_ambil_srt_pindah="+encodeURIComponent(tgl_ambil_srt_pindah)+"&agt1="+encodeURIComponent(srt_pindah_agt1)+"&agt2="+encodeURIComponent(srt_pindah_agt2)+"&agt3="+encodeURIComponent(srt_pindah_agt3)+"&agt4="+encodeURIComponent(srt_pindah_agt4)+"&agt5="+encodeURIComponent(srt_pindah_agt5)+"&jalan="+encodeURIComponent(srt_pindah_jalan)+"&kelurahan="+encodeURIComponent(srt_pindah_kelurahan)+"&kecamatan="+encodeURIComponent(srt_pindah_kecamatan)+"&kota="+encodeURIComponent(srt_pindah_kota)+"&provinsi="+encodeURIComponent(srt_pindah_provinsi)+"&waktu_ambil="+encodeURIComponent(srt_pindah_waktu_ambil)+"&jam_ambil="+encodeURIComponent(srt_pindah_jam_ambil);
 				$.ajax({
 					url		: url,
 					type	: "GET",
@@ -453,7 +453,7 @@
 					return false();
 				}
 				$(".muat").show();
-				var url = "http://kelurahanstdi.eu5.org/simpan_perubahan_data.php?nama="+encodeURIComponent(perubahan_data_nama)+"&nik="+encodeURIComponent(perubahan_data_nik)+"&tgl_ambil_perubahan_data="+encodeURIComponent(tgl_ambil_perubahan_data)+"&pilihan="+encodeURIComponent(perubahan_data_pilihan)+"&baru="+encodeURIComponent(perubahan_data_baru)+"&lama="+encodeURIComponent(perubahan_data_lama)+"&waktu_ambil="+encodeURIComponent(perubahan_data_waktu_ambil)+"&jam_ambil="+encodeURIComponent(perubahan_data_jam_ambil);
+				var url = "http://kelurahanstdi.eu5.org/root_ad/simpan_perubahan_data.php?nama="+encodeURIComponent(perubahan_data_nama)+"&nik="+encodeURIComponent(perubahan_data_nik)+"&tgl_ambil_perubahan_data="+encodeURIComponent(tgl_ambil_perubahan_data)+"&pilihan="+encodeURIComponent(perubahan_data_pilihan)+"&baru="+encodeURIComponent(perubahan_data_baru)+"&lama="+encodeURIComponent(perubahan_data_lama)+"&waktu_ambil="+encodeURIComponent(perubahan_data_waktu_ambil)+"&jam_ambil="+encodeURIComponent(perubahan_data_jam_ambil);
 				$.ajax({
 					url		: url,
 					type	: "GET",
