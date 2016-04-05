@@ -410,7 +410,7 @@
 			function perubahan_data(){
 				var perubahan_data_nama	= $("#perubahan_data_nama").val();
 				var perubahan_data_nik		= $("#perubahan_data_nik").val();
-				var perubahan_data_pilihan	= $("#perubahan_data_pilihan").val();
+				//var perubahan_data_pilihan	= $("#perubahan_data_pilihan").val();
 				var perubahan_data_baru		= $("#perubahan_data_baru").val();
 				var perubahan_data_lama		= $("#perubahan_data_lama").val();
 				var perubahan_data_waktu_ambil		= $("#perubahan_data_waktu_ambil").val();
@@ -427,11 +427,13 @@
 					$("#perubahan_data_nik").focus();
 					return false();
 				}
+				/*
 				if(perubahan_data_pilihan.length==0){
 					alert('Silahkan Pilih Perubahan data');
 					$("#perubahan_data_pilihan").focus();
 					return false();
 				}
+				*/
 				if(perubahan_data_lama.length==0){
 					alert('Silahkan mengisi data yang saat ini ');
 					$("#perubahan_data_lama").focus();
@@ -753,7 +755,7 @@
             <div class="row">
                 <div class="col-sm-7">
                     <div class="hero">
-                        <H2>Sistem Layanan Online Administrasi Kelurahan STDI</H2><p><br></p><p>e-STDI 1.0.0</p>
+                        <H2>Sistem Layanan Online Administrasi Kelurahan STDI</H2><p><br></p><p>SLOAKSTDI v1.0.0</p>
                     </div>
                     <div class="group">
                         
@@ -1222,7 +1224,6 @@
                 <div class="modal-body">
                   <a href="#" class="btn btn-warning btn-lg" style="margin-bottom:5px;" onclick="dismiss2();">Halaman Utama</a> 
                   <a href="#bantuan" class="btn btn-warning btn-lg" style="margin-bottom:5px;" onclick="dismiss2();">Bantuan</a> 
-                  <a href="#galeri" class="btn btn-warning btn-lg" style="margin-bottom:5px;" onclick="dismiss2();">Galeri</a> 
                   <a data-toggle="modal" data-target="#modal3" class="btn btn-warning btn-lg" style="margin-bottom:5px;" onclick="dismiss2();">Unggah Pengurusan</a> 
                 </div>
               </div>
